@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #707174;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+section{
+    margin: 7rem 0;
+}
+
+.button__primary{
+    /* background-image: linear-gradient(red, yellow); */
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+    );
+    margin: 10px;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    justify-content: center;
+   
+    transition: 0.5s;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    display: block;
+    margin-left:60rem;
+    margin-top:1rem;
+}
+.button__primary:hover{
+    border: 2px solid pink;    
+}
+.button__secondary{
+    /* background-image: linear-gradient(red, yellow); */
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+    );
+   
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    justify-content: center;
+   
+    transition: 0.5s;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    display: block;
+    margin-right:2rem;
+    margin-top:0rem;
+}
+.button__secondary:hover{
+    border: 2px solid pink;    
+}
+.button__OrderNow{
+    /* background-image: linear-gradient(red, yellow); */
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+    );
+    margin: 10px;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    justify-content: center;
+   
+    transition: 0.5s;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    display: block;
+ 
+}
+.button__OrderNow:hover{
+    border: 2px solid pink;    
+}
+.navbar{
+    position: sticky;
+    height: 50px;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9fafc;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    z-index: 9999;
+}
+.navbar__brand{
+    width:100px;
+}
+.navbar__logo{
+    width:100%;
+}
+.nav__items:hover{
+    border: 2px solid pink;    
+}
+.hero_image_container{
+    position: absolute;
+    display: flex;
+    width:30%;
+    margin-left: 65%;
+}
+.hero_image_shape{
+    position: absolute;
+    right:2;
+}
+
+.hero__image{
+    margin-top: 2rem;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    border-radius: 6px;
+    box-shadow: 0 25px 50px -12px rgba(15, 4, 4, 0.25);
+}
+.hero__description{
+    font-size: 25px;
+    line-height: 2.25rem;
+    color: #1d3557;
+    font-weight: 900;
+    margin-left: 9rem;
+    padding: 50px;
+    width: 50%;
+    box-sizing: border-box;
+    align-items: center;
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+.hero__text{
+
+    margin-bottom: 25px;
+
+}
+.rectangle{
+    width:22rem;
+    height:9rem;
+    transform:skew(0deg);
+    background:rgb(253, 19, 19);
+    margin-top:10rem;
+    margin-left:30rem;
+    margin-bottom:1rem;
+}
+.video{
+   margin-top:-3rem;
+   margin-left:-2rem;
+}
+.paragraph{
+    margin-left:20rem;
+    margin-bottom:0rem;
+}
+.parallelogram{
+    width:65rem;
+    height:30rem;
+    transform:skew(-18deg);
+    background:rgb(253, 19, 19);
+    margin-left:10rem;
+    margin-bottom:2rem;
+    margin-top:0;
+    
+    
+}
+.heading{
+    color: #1d3557;
+    margin-left:20rem;
+    font-size:3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.burger__image{
+    margin-top: -19rem;
+    margin-left:4rem;
+    position: absolute;
+    width: 25%;
+    height:50%;
+    border-radius: 6px;
+    box-shadow: 0 25px 50px -12px rgba(15, 4, 4, 0.25);
+    transform:skew(18deg);
+    position:fixed;
+}
+.pizza__image{
+margin-left:25rem;
+margin-top: -19rem;
+position: absolute;
+width: 25%;
+height:50%;
+border-radius: 6px;
+box-shadow: 0 25px 50px -12px rgba(15, 4, 4, 0.25);
+transform:skew(18deg);
+}
+.iceCream__image{
+    margin-left:45rem;
+    margin-top: -16rem;
+    position: absolute;
+    width: 25%;
+    height:50%;
+    border-radius: 6px;
+    box-shadow: 0 25px 50px -12px rgba(15, 4, 4, 0.25);
+    transform:skew(18deg);
+}
+.burger{
+    background-color: rgb(235, 235, 241);
+    font-size: 15px;
+    opacity: 3;
+    transform:skew(18deg);
+    width:16rem;
+    margin-top: -4rem;
+    margin-left: 7rem;
+}
+.pizza{
+    background-color: #f9fafc;
+    font-size: 15px;
+    opacity: 3;
+    transform:skew(18deg);
+    width:16rem;
+    margin-top: -4rem;
+    margin-left: 28rem;
+}
+.iceCream{
+    background-color: #f9fafc;
+    font-size: 15px;
+    opacity: 3;
+    transform:skew(18deg);
+    width:16rem;
+    margin-top: -1rem;
+    margin-left: 48rem;
+}
+.button_parallelogram{
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #e0300c 100%
+    );
+    margin-top: 20rem;
+    margin-left: 30rem;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    justify-content: center;
+    text-transform: capitalize;
+    transition: 0.50s;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    transform:skew(18deg);
+
+}
+.button_parallelogram:hover{
+    border: 2px solid pink;    
+}
+.restaurant1{
+  width:20rem;
+  height:8rem;
+  margin-left: 40rem;
+  margin-top: 1rem;
+}
+ 
+.restaurant2{
+    width:20rem;
+    height:14rem;
+    margin-left: 60.1rem;
+    margin-top: -55rem;
+}
+  .restaurant3{
+    width:25rem;
+    height:12rem;
+    margin-left: 40rem;
+    margin-top: -1.1rem;
+   
+  }
+  .restaurant4{
+    width:15rem;
+    height:6rem;
+    margin-left: 65rem;
+  }
+  .pic4{
+    margin-top: -11.1rem;
+  }
+  .h3{
+    font-size: 2rem;
+    margin-left: 10rem;
+    margin-top: -10rem;
+   
+  }
+  .placeholder{
+    border-radius: (2 3 6 8 );
+    background-color: rgb(240, 210, 227);
+    margin-top: 1rem;
+    border-color: #f30c0c;
+    lighting-color: #ff512f;
+    width:10rem;
+    
+  }
+  .button__updates{
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #e0300c 100%
+    );
+    margin-top: -2rem;
+    margin-left: 45rem;
+    color: #fff;
+    border: none;
+    padding: 1rem 1em;
+    text-align: center;
+    justify-content: center;
+    text-transform: capitalize;
+    transition: 0.50s;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+  }
+  
+.button__updates:hover{
+    border: 2px solid pink;}
+  
+  .stay__updated{
+    margin-top: 20rem;
+    margin-left: 34rem;
+
+  }
+  .image__restaurant{
+   height:20rem;
+   width: 75rem;
+   margin-left:5rem;
+   margin-top: -5rem;
+   border-radius: 30px;
+   margin-bottom: 2rem;
+  }
+  .restaurant__discription{
+    color: #65c9f0;
+    margin-top: -9rem;
+    margin-left:10rem;
+    font-size: 2rem;
+
+  }
+  .rectangle1{
+    height:13rem;
+    width:90rem;
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #e0300c 100%
+    );
+    margin-top:8rem;
+
+  }
+  .zomato{
+   font-size: 3rem;
+    color:aliceblue;
+    margin-left:15rem;
+    margin-top:-8rem;
+  }
+  .list{
+    margin-left: 60rem;
+    margin-top:-6rem;
+    color:#fff;
+    font-size:1.5rem;
+  }
+  a:link {
+    text-decoration: none;
+}
